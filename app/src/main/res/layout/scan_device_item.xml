@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ __          ________        _  _____
+  ~ \ \        / /  ____|      (_)/ ____|
+  ~  \ \  /\  / /| |__      ___ _| (___   ___  ___
+  ~   \ \/  \/ / |  __|    / _ \ |\___ \ / _ \/ __|
+  ~    \  /\  /  | |____  |  __/ |____) | (_) \__ \
+  ~     \/  \/   |______|  \___|_|_____/ \___/|___/
+  ~
+  ~ Copyright Wuerth Elektronik eiSos 2019
+  ~
+  -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_device_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="5dp"
+    android:paddingTop="10dp"
+    android:paddingEnd="5dp"
+    android:paddingBottom="10dp">
+
+
+    <TextView
+        android:id="@+id/tv_device_name"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:gravity="center_vertical"
+        android:text="LED Test"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/img_star"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_rssi"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="50dp"
+        android:src="@drawable/ic_signal_full"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_device_name"
+        app:layout_constraintEnd_toStartOf="@+id/img_connection_state"
+        app:layout_constraintTop_toTopOf="@+id/tv_device_name" />
+
+    <ImageView
+        android:id="@+id/img_connection_state"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_info_red"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_device_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_device_name" />
+
+
+    <TextView
+        android:id="@+id/tv_device_address"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:text="(00:18:DA:WU:ER:TH)"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_device_name" />
+
+    <TextView
+        android:id="@+id/tv_rssi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="57dp"
+        android:text="-75 dBm"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_device_address"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_device_address" />
+
+    <ImageView
+        android:id="@+id/img_popup_menu"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:scaleType="fitEnd"
+        android:src="@drawable/ic_menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_star_border"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

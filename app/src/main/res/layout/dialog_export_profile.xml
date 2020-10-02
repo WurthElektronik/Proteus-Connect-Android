@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ __          ________        _  _____
+  ~ \ \        / /  ____|      (_)/ ____|
+  ~  \ \  /\  / /| |__      ___ _| (___   ___  ___
+  ~   \ \/  \/ / |  __|    / _ \ |\___ \ / _ \/ __|
+  ~    \  /\  /  | |____  |  __/ |____) | (_) \__ \
+  ~     \/  \/   |______|  \___|_|_____/ \___/|___/
+  ~
+  ~ Copyright Wuerth Elektronik eiSos 2019
+  ~
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Available profiles"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/profile_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/cb_all"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/profileExportSelectAll"
+                android:textSize="14sp"
+                android:theme="@style/CheckBoxCustom" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:backgroundTint="@color/colorAccent2"
+            android:text="Cancel"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_export"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Export"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

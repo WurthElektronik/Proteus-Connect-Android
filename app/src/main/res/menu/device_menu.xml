@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ __          ________        _  _____
+  ~ \ \        / /  ____|      (_)/ ____|
+  ~  \ \  /\  / /| |__      ___ _| (___   ___  ___
+  ~   \ \/  \/ / |  __|    / _ \ |\___ \ / _ \/ __|
+  ~    \  /\  /  | |____  |  __/ |____) | (_) \__ \
+  ~     \/  \/   |______|  \___|_|_____/ \___/|___/
+  ~
+  ~ Copyright Wuerth Elektronik eiSos 2019
+  ~
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:id="@+id/deviceMenuGroup_gpio">
+        <item
+            android:id="@+id/deviceMenuItem_config"
+            android:title="@string/deviceMenuItemConfig" />
+        <item
+            android:id="@+id/deviceMenuItem_read_write"
+            android:title="@string/deviceMenuItemReadWrite" />
+    </group>
+    <item
+        android:id="@+id/deviceMenuItem_mtu"
+        android:title="@string/deviceMenuItemMtu" >
+        <menu >
+            <item
+                android:id="@+id/deviceMenuItem_read_mtu"
+                android:title="@string/deviceMenuItemReadMtu" />
+            <item
+                android:id="@+id/deviceMenuItem_req_mtu"
+                android:title="@string/devicemenuItemRequestMtu" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/deviceMenuItem_read_rssi"
+        android:title="@string/deviceMenuItemReadRssi" />
+    <item android:title="@string/deviceMenuItemPhy">
+        <menu>
+            <item
+                android:id="@+id/deviceMenuItem_read_phy"
+                android:title="@string/deviceMenuItemReadPhy" />
+            <item
+                android:id="@+id/devicemenuItem_set_phy"
+                android:title="@string/deviceMenuItemSetPhy" />
+        </menu>
+    </item>
+</menu>

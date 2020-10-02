@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ __          ________        _  _____
+  ~ \ \        / /  ____|      (_)/ ____|
+  ~  \ \  /\  / /| |__      ___ _| (___   ___  ___
+  ~   \ \/  \/ / |  __|    / _ \ |\___ \ / _ \/ __|
+  ~    \  /\  /  | |____  |  __/ |____) | (_) \__ \
+  ~     \/  \/   |______|  \___|_|_____/ \___/|___/
+  ~
+  ~ Copyright Wuerth Elektronik eiSos 2019
+  ~
+  -->
+<resources>
+    <string name="noData">No data to display.</string>
+    <string name="msgFieldHint">Payload</string>
+    <string name="btnSend">Send</string>
+
+    <!-- Menu -->
+    <string name="menuConnect">Connect</string>
+    <string name="menuDisconnect">Disconnect</string>
+    <string name="menuProfiles">Profiles</string>
+    <string name="menuEncoding">Change Encoding</string>
+    <string name="menuSendAllToDevices">Send to all devices</string>
+    <string name="menuSettings">Settings</string>
+    <string name="deviceReconnected">reconnected!</string>
+    <string name="deviceDisconnected">disconnected!</string>
+
+    <string name="log" formatted="false">%1$tR:%1$tS.%1$tL</string>
+
+    <!-- Broadcastreceiver -->
+    <string name="payloadError">An Error occurred. The Payload has a false length</string>
+
+    <!-- Dialog encoding-->
+    <string name="encodingDialogTitle">Character Encoding</string>
+    <string-array name="encodingOptions">
+        <item>ASCII</item>
+        <item>HEX</item>
+    </string-array>
+
+    <!-- No log entries -->
+    <string name="noLogEntries">No log entries for selected log level.</string>
+
+    <!-- Log Filter Entries -->
+    <string-array name="logFilterEntries">
+        <item>DEBUG</item>
+        <item>VERBOSE</item>
+        <item>INFO</item>
+        <item>APP</item>
+        <item>WARNING</item>
+        <item>ERROR</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ __          ________        _  _____
+  ~ \ \        / /  ____|      (_)/ ____|
+  ~  \ \  /\  / /| |__      ___ _| (___   ___  ___
+  ~   \ \/  \/ / |  __|    / _ \ |\___ \ / _ \/ __|
+  ~    \  /\  /  | |____  |  __/ |____) | (_) \__ \
+  ~     \/  \/   |______|  \___|_|_____/ \___/|___/
+  ~
+  ~ Copyright Wuerth Elektronik eiSos 2019
+  ~
+  -->
+
+<resources>
+    <string name="deviceMenuItemConfig">GPIO config</string>
+    <string name="deviceMenuItemInput">Input</string>
+    <string name="deviceMenuItemOutput">Output</string>
+    <string name="deviceMenuItemInvalid">Invalid</string>
+    <string name="deviceMenuItemPullUp">Pull up</string>
+    <string name="deviceMenuItemPullDown">Pull down</string>
+    <string name="deviceMenuItemNoPull">No pull</string>
+    <string name="deviceMenuItemHigh">High</string>
+    <string name="deviceMenuItemLow">Low</string>
+    <string name="deviceMenuItemReadWrite">GPIO read/write</string>
+    <string name="deviceMenuItemMtu">MTU</string>
+    <string name="devicemenuItemRequestMtu">Request MTU</string>
+    <string name="deviceMenuItemReadMtu">Read MTU</string>
+    <string name="deviceMenuItemReadRssi">Read Rssi</string>
+    <string name="deviceMenuItemPhy">PHY</string>
+    <string name="deviceMenuItemReadPhy">Read PHY</string>
+    <string name="deviceMenuItemSetPhy">Set PHY</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ __          ________        _  _____
+  ~ \ \        / /  ____|      (_)/ ____|
+  ~  \ \  /\  / /| |__      ___ _| (___   ___  ___
+  ~   \ \/  \/ / |  __|    / _ \ |\___ \ / _ \/ __|
+  ~    \  /\  /  | |____  |  __/ |____) | (_) \__ \
+  ~     \/  \/   |______|  \___|_|_____/ \___/|___/
+  ~
+  ~ Copyright Wuerth Elektronik eiSos 2019
+  ~
+  -->
+<resources>
+    <string name="searchToolbarTitle">Select device</string>
+    <string name="devicesFound">Found devices</string>
+
+    <string name="scan">Scan</string>
+    <string name="stopScanning">Stop Scanning</string>
+    <string name="scanError">Scanning not possible. You are connected to a device !</string>
+    <string name="connectionNotPossible">Only one connection at a time possible!</string>
+    <string name="connectionTimedOut">Connection timed out</string>
+
+    <string name="menuItemAutoConnect">Connect with auto connect</string>
+    <string name="menuItemSetPhy">Connect with preferred phy</string>
+</resources>

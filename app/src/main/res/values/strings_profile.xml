@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ __          ________        _  _____
+  ~ \ \        / /  ____|      (_)/ ____|
+  ~  \ \  /\  / /| |__      ___ _| (___   ___  ___
+  ~   \ \/  \/ / |  __|    / _ \ |\___ \ / _ \/ __|
+  ~    \  /\  /  | |____  |  __/ |____) | (_) \__ \
+  ~     \/  \/   |______|  \___|_|_____/ \___/|___/
+  ~
+  ~ Copyright Wuerth Elektronik eiSos 2019
+  ~
+  -->
+
+<resources>
+    <string name="descriptionPlaceholder">No description available</string>
+    <string name="titleProfileName">Profile name</string>
+    <string name="titleProfileDescription">Description</string>
+    <string name="encodingFormatTitle">Encoding</string>
+    <string name="encodingFormatHex">HEX</string>
+    <string name="encodingFormatAscii">ASCII</string>
+    <string name="panelPlaceholder">None</string>
+    <string name="profileCommand">Command</string>
+    <string name="profileCommandHint">Command without leading 01</string>
+    <string name="fieldRequired">Field required!</string>
+    <string name="noProfilesAvailable">No profiles available</string>
+    <string name="profileSelect">Select</string>
+    <string name="profileEdit">Edit</string>
+    <string name="profileDelete">Delete</string>
+    <string name="editProfileBtn">Edit profile</string>
+
+    <!-- Profile import/export -->
+    <string name="profileImportSuccess">Profile successfully imported</string>
+    <string name="profileImportError">An error occurred during the import!</string>
+    <string name="profileExportSuccess">Exported to:</string>
+    <string name="profileExportError">An error occurred during the export!</string>
+    <string name="profileExportSelectAll">Select all</string>
+
+    <!-- Error dialog -->
+    <string name="profileImportFailedTitle">Import failed</string>
+    <string name="profileImportFailedMsg">The import of the profile failed due to a wrong file format. Please make sure you are using a correct file</string>
+
+    <string name="profileSelected">Selected profile:</string>
+    <string name="profileSavedSuccess">Profile successfully saved</string>
+
+    <!-- OverwriteProfileDialog -->
+    <string name="overwriteProfileTitle">Overwrite profile</string>
+    <string name="overwriteProfileMsg">Do you really want to overwrite the channel settings?</string>
+</resources>

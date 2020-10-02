@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ __          ________        _  _____
+  ~ \ \        / /  ____|      (_)/ ____|
+  ~  \ \  /\  / /| |__      ___ _| (___   ___  ___
+  ~   \ \/  \/ / |  __|    / _ \ |\___ \ / _ \/ __|
+  ~    \  /\  /  | |____  |  __/ |____) | (_) \__ \
+  ~     \/  \/   |______|  \___|_|_____/ \___/|___/
+  ~
+  ~ Copyright Wuerth Elektronik eiSos 2019
+  ~
+  -->
+<resources>
+    <string name="serviceNotificationChannelName">Proteus_Connect Service</string>
+    <string name="serviceContentTitle">Service is running in background</string>
+    <string name="serviceContentText">Tap to open</string>
+    <string name="deviceBonding">Device bonding...</string>
+    <string name="deviceBonded">Device bonded</string>
+    <string name="deviceBondingFailed">Bonding of the device failed</string>
+    <string name="bleVersionNotSupported">Connection failed: The bluetooth version of your Smartphone is outdated !</string>
+    <string name="connectionLost">The connection to the device has been lost !</string>
+    <string name="mtuNotSupported">Device does not support MTU > 21! Therefore the app sadly can\'t be used on your device.</string>
+</resources>

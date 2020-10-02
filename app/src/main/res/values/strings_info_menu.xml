@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ __          ________        _  _____
+  ~ \ \        / /  ____|      (_)/ ____|
+  ~  \ \  /\  / /| |__      ___ _| (___   ___  ___
+  ~   \ \/  \/ / |  __|    / _ \ |\___ \ / _ \/ __|
+  ~    \  /\  /  | |____  |  __/ |____) | (_) \__ \
+  ~     \/  \/   |______|  \___|_|_____/ \___/|___/
+  ~
+  ~ Copyright Wuerth Elektronik eiSos 2019
+  ~
+  -->
+<resources>
+    <string name="infoToolbarTitle">WE</string>
+    
+    <string name="information">Information</string>
+    <string name="version">Version</string>
+    <string name="versionNumber">3.0</string>
+    <string name="privacyPolicy">Privacy Policy</string>
+    <string name="imprint">Imprint</string>
+    <string name="whatsNew">What\'s New</string>
+    
+    <string name="infoLinksTitle">Links</string>
+    <string name="language">Language</string>
+    <string name="infoLanguage">English</string>
+    <string name="sensors">Wireless Connectivity and Sensors</string>
+    <string name="userManuals">User Manuals</string>
+    <string name="sourceCode">Source Code</string>
+
+    <!-- Policy content -->
+    <string name="policyContent" translatable="false">We, Würth Elektronik eiSos GmbH &amp; Co. KG, provide you with Apps for communication over the Bluetooth® Low Energy standard with radio modules of the Proteus Series. (“Proteus-Connect” and “WEIlluminate”, collectively named “App” from here on).\n
+    \nThis App requires access to the Bluetooth functionality of you smart device, including all dependencies for the Bluetooth functionality as set by the smart device operating system.\n
+    \nIn this Data Protection Information, we explain to you which personal data is collected x and processed (section “Data processing during the use of our App “) as part of the App, for which purposes, and which rights you have.\n
+
+    \n<b>1.	Identity of the entity responsible for data protection</b>\n
+
+    \nThe entity responsible under data protection law for the collection and processing of your personal data when using our App is\n
+    \nWürth Elektronik eiSos GmbH &amp; Co. KG
+    \nMax-Eyth-Strasse 1
+    \n74638 Waldenburg, Germany.
+    \ne-mail:   eiSos@we-online.de
+    \nPhone: +49-7942-945-0\n
+
+        \n<b>2.	Contact details of the data protection officer</b>\n
+
+    \nIf you have any questions, concerns or suggestions regarding data protection in conjunction with our App, you can contact our data protection officer at any time:\n
+    \nThe Data Protection Officer of Würth Elektronik eiSos GmbH &amp; Co. KG:
+    \nWürth Elektronik eiSos GmbH &amp; Co. KG
+    \nDatenschutzbeauftragter
+    \nMax-Eyth-Strasse 1
+    \n74638 Waldenburg, Germany
+    \ndatenschutz@we-online.de\n
+
+    \nOur data protection officer is also there for you to assert your rights as an affected individual. Detailed information can be found in section “Your Rights”.\n
+
+    \n<b>3.	Data processing during the download of our App</b>\n
+
+    \nWhen downloading or updating the App, the necessary information is transferred to the App Store, in particular, but not limited to, the user name and customer number of your account, date of birth, language, country, e-mail address, security features, time of download and the individual device code number.\n
+    \nWürth Elektronik eiSos has no influence on this data collection and are not responsible for it. You can find out about the processing of your personal data when downloading the App from the App Store operator\'s privacy statement.\n
+
+    \n<b>4.	Data processing during the use of our App</b>\n
+
+    \nWhen using our App, no personal data is collected or processed.\n
+    \nThe App works offline and does not require any internet connection. Even if an internet connection is available, the App does not use it.\n
+    \nThe App processes all data that is entered or created actively by the user inside the App for the purpose of sending it over the Bluetooth Low Energy connection selected in the App. Also received data on the selected Bluetooth Low Energy connection is processed (e.g. displayed) by the App.\n
+    \nThis data, independently on the data direction, is not stored permanently in the smart device and will be discarded when closing the App or clearing the display inside the App.\n
+
+    \n<b>5.	Technical support</b>\n
+    \nYou can reach out to our technical support team via web:\n
+        \n<a href="https://www.we-online.com/web/en/electronic_components/produkte_pb/service_pbs/wco/wco_technicalsupport.php">https://www.we-online.com/web/en/electronic_components/produkte_pb/service_pbs/wco/wco_technicalsupport.php</a>\n
+
+    \n<b>6.	Your rights</b>\n
+
+    \nInsofar as the legal requirements pursuant to Art. 15 ff. GDPR are satisfied, you have the following rights with regard to your personal data stored with us (so-called data subject rights):\n
+
+
+    \n•      You can request information from us at any time as to whether personal data and which categories of personal data about you are stored by us, for what purposes it is processed, and which recipients or categories of recipients may receive it. Furthermore, you can request further information on your personal data listed in Art. 15 GDPR from us (right to access).\n
+
+    \n•      In accordance with the legal requirements, you also have a right to rectification (Art. 16 GDPR), a right to cancellation (Art. 17 GDPR) and a right to limitation of the processing (blocking) of your personal data (Art. 18 GDPR).\n
+
+    \n•      Pursuant to Art. 20 GDPR, you also have the right to receive from us your personal data which you have provided to us in a structured, common and machine-readable format; you may also transmit or have transmitted this personal data to other responsible parties (right to data transferability).\n
+
+    \n•      You are also entitled to revoke your consent at any time.\n
+
+    \n•      In addition, you have the right to object to data processing in the case of data processing that is based on the legitimate interests of the person responsible or a third party pursuant to Art. 6(1) sentence 1 f) GDPR assuming the legal requirements pursuant to Art. 21 GDPR are met.\n
+
+    \nIn order to assert your rights, you can contact us at any time at datenschutz@we-online.de or send a message to the address given under item 1.\n
+
+    \nFurthermore, pursuant to Art. 77(1) GDPR, you have the right to submit a complaint to a supervisory authority, in particular in the Member State of your place of residence, workplace or place of presumed infringement, if you consider that the processing of your personal data violates the GDPR.\n
+    \n
+    </string>
+
+    <!-- Imprint content -->
+    <string name="imprintContent" translatable="false">(Complies to German § 5 TMG)\n
+
+    \n<b>Würth Elektronik eiSos GmbH &amp; Co. KG</b>
+    \nMax-Eyth-Straße 1
+    \n74638 Waldenburg
+    \n
+    \nCommercial Register / Handelsregister:
+        \nStuttgart HRA 580801
+    \n
+    \nPartner with unlimited liability / Komplementär:
+        \nWürth Elektronik eiSos Verwaltungs-GmbH, Headquarters Waldenburg, Commercial Register / Registergericht Stuttgart HRB 581033
+    \n
+    \nVAT identification number / UST-ID Würth Elektronik eiSos GmbH &amp; Co. KG DE220618976
+    \n
+    \nChief Executive Officers / Geschäftsführer:
+    \nThomas Schrott, Alexander Gerfer, Thomas Wild,
+        Dirk Knorr, Josef Wörner
+    \n
+    \nPhone.: +49 7942 945 - 0
+    \nFax: +49 7942 945 - 5000
+    \nE-Mail: wireless-sales@we-online.com
+    \n
+    \n<b>Technical Support</b>
+    \nOur technical support team can be contacted via web:\n<a href="https://www.we-online.com/web/en/electronic_components/produkte_pb/service_pbs/wco/wco_technicalsupport.php">https://www.we-online.com/web/en/electronic_components/produkte_pb/service_pbs/wco/wco_technicalsupport.php</a>\n
+
+    \n<b>Disclaimer</b>
+    \nWürth Elektronik GmbH &amp; Co. KG takes great care in presenting these Internet pages and attempts to ensure they are regularly updated. The information is however only of a general nature without obligation and is not a substitute for personal consultation. Würth Elektronik GmbH &amp; Co. KG assumes no responsibility for the timeliness, accuracy and completeness of the information on these pages or for uninterrupted access to them. Where there are links to third party Internet pages, Würth Elektronik GmbH &amp; Co. KG assumes no responsibility for the content of the pages linked. If a link is activated, you are no longer provided with information supplied by Würth Elektronik GmbH &amp; Co. KG. Deviating rules may therefore apply for third party offerings, especially in regard to data protection. Furthermore, Würth Elektronik GmbH &amp; Co. KG assumes no responsibility for minor breaches of duty by negligence in regard to services offered on the Internet pages of Würth Elektronik GmbH &amp; Co. KG, particularly in regard to downloading files made available by Würth Elektronik GmbH &amp; Co. KG.
+    \n
+    \n<b>Dispute resolution</b>
+        \nThe European Commission provides a platform for online dispute resolution (ODR), available under <a href="http://ec.europa.eu/consumers/odr/">http://ec.europa.eu/consumers/odr/</a>. We have no obligation and are in principle not willing to join dispute resolution procedures by a consumer conciliation board.
+    \n
+    \n<b>Data Protection</b>
+    \nYou can find our data protection and privacy policy on a dedicated page in this App.\n
+    \n
+    </string>
+
+    <string name="btn_Accept">Accept</string>
+
+</resources>

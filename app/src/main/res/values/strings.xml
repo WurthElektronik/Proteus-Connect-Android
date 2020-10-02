@@ -1,0 +1,24 @@
+<!--
+  ~ __          ________        _  _____
+  ~ \ \        / /  ____|      (_)/ ____|
+  ~  \ \  /\  / /| |__      ___ _| (___   ___  ___
+  ~   \ \/  \/ / |  __|    / _ \ |\___ \ / _ \/ __|
+  ~    \  /\  /  | |____  |  __/ |____) | (_) \__ \
+  ~     \/  \/   |______|  \___|_|_____/ \___/|___/
+  ~
+  ~ Copyright Wuerth Elektronik eiSos 2019
+  ~
+  -->
+<resources>
+    <string name="app_name">Proteus Connect</string>
+    <string name="splashScreenImg">Splash Screen Image</string>
+    <string name="menuItem1">Info</string>
+    <string name="menuItem2">Scan</string>
+    <string name="menuItem3">Terminal</string>
+    <string name="defaultToolbarTitle">Toolbar Title</string>
+    <string name="no_ble">Device doesn\'t have BLE support!</string>
+    <string name="permissionNotGranted">To scan for devices, allow the app to receive your position</string>
+    <string name="permissionDenied">Without the permission the app will not work properly</string>
+    <string name="doubleTabToExit">"Please double tab BACK to exit"</string>
+    <string name="proteus3Identifier">00:18:DA:30:</string>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ __          ________        _  _____
+  ~ \ \        / /  ____|      (_)/ ____|
+  ~  \ \  /\  / /| |__      ___ _| (___   ___  ___
+  ~   \ \/  \/ / |  __|    / _ \ |\___ \ / _ \/ __|
+  ~    \  /\  /  | |____  |  __/ |____) | (_) \__ \
+  ~     \/  \/   |______|  \___|_|_____/ \___/|___/
+  ~
+  ~ Copyright Wuerth Elektronik eiSos 2019
+  ~
+  -->
+
+<resources>
+    <string name="dialogReadWriteTitle">GPIO Read/Write</string>
+    <string name="infoInput">Input</string>
+    <string name="infoOutput">Output</string>
+
+    <!-- Config  -->
+    <string name="dialogConfigTitle">GPIO config</string>
+    <string name="pinB1">B1</string>
+    <string name="pinB2">B2</string>
+    <string name="pinB3">B3</string>
+    <string name="pinB4">B4</string>
+    <string name="pinB5">B5</string>
+    <string name="pinB6">B6</string>
+
+    <string name="pinValueNoPull">no pull</string>
+    <string name="pinValuePullUp">pull up</string>
+    <string name="pinValuePullDown">pull down</string>
+    <string name="pinValueHigh">high</string>
+    <string name="pinValueLow">low</string>
+
+    <string name="noConfigAvailable">No configuration available. Please read config.</string>
+    <string name="pinNotConfigured">Pin not configured.</string>
+
+    <!-- Read/write -->
+    <string name="dialogReadBtn">Read</string>
+    <string name="dialogWriteBtn">Write pin</string>
+    <string name="dialogWriteAll">Write all</string>
+    <string name="dialogRWNoConfig">Please read the pin config by pressing the \"refresh button\" in the config menu</string>
+    <string name="dialogRWPinNotConfigured">Pin is not configured.</string>
+    <string name="dialogRWValuesNotRead">Please read the values of the pins.</string>
+
+    <!-- GPIO values -->
+    <string name="gpioValueNoPull">No pull</string>
+    <string name="gpioFunctionOutput">Output</string>
+    <string name="gpioValueHigh">High</string>
+    <string name="gpioValueLow">Low</string>
+
+    <!-- Request Mtu -->
+    <string name="dialogMtuTitle">Request Maximum Transfer Unit (MTU)</string>
+    <string name="dialogMtuBtn">Request</string>
+    <string name="dialogMtuHint">MTU value: &lt;23 - 517&gt;</string>
+    <string name="dialogMtuWrongValue">MTU value can only be between 23 and 517!</string>
+    <string name="dialogMtuFieldEmpty">MTU field can\'t be empty!</string>
+
+    <!-- Request phy -->
+    <string name="dialogPhyTitle">Set preferred Phy</string>
+    <string name="dialogPhySubTitle">Preferred transmitter (TX) and receiver (RX) Phy:</string>
+    <string name="dialogPhyLe1M">LE 1M (Legacy)</string>
+    <string name="dialogPhyLe2M">LE 2M (Double speed)</string>
+    <string name="dialogPhyCoded">LE Coded (Long range)</string>
+    <string name="dialogPhyCodedOptionS2">S2 (500 kbps*)</string>
+    <string name="dialogPhyCodedOptionS8">S8 (125 kbps, range x4)</string>
+    <string name="dialogPhyCodedNoPreferredMethod">No preferred method</string>
+    <string name="dialogPhyCodedInfo">* Only the payload and CRC use 500 kbps.</string>
+
+    <!-- DeleteProfile -->
+    <string name="deleteProfileDialogTitle">Delete profile</string>
+    <string name="deleteProfileDialogMsg1">Do you really want to delete</string>
+    <string name="deleteProfileDialogMsg2">\?</string>
+    <string name="deleteProfileDialogBtn">Delete</string>
+
+
+    <string name="dialogBtnOk">Ok</string>
+    <string name="dialogBtnBack">Back</string>
+    <string name="dialogBtnCancel">Cancel</string>
+</resources>

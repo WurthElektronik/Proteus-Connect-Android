@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ __          ________        _  _____
+  ~ \ \        / /  ____|      (_)/ ____|
+  ~  \ \  /\  / /| |__      ___ _| (___   ___  ___
+  ~   \ \/  \/ / |  __|    / _ \ |\___ \ / _ \/ __|
+  ~    \  /\  /  | |____  |  __/ |____) | (_) \__ \
+  ~     \/  \/   |______|  \___|_|_____/ \___/|___/
+  ~
+  ~ Copyright Wuerth Elektronik eiSos 2019
+  ~
+  -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eisos.android">
+
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:requestLegacyExternalStorage="true">
+        <activity android:name=".terminal.SplashActivity"
+            android:theme="@style/SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".terminal.MainActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity android:name=".terminal.PolicyActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".terminal.profiles.ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".terminal.ImprintActivity"
+        android:screenOrientation="portrait" />
+        <activity android:name=".terminal.WhatsNewActivity"
+            android:screenOrientation="portrait" />
+        <service android:name=".terminal.bluetooth.services.UARTService">
+
+        </service>
+        <provider android:name=".terminal.bluetooth.UARTLocalLogContentProvider"
+            android:authorities="com.eisos.android.terminal.bluetooth.log"
+            android:exported="true"/>
+    </application>
+
+</manifest>

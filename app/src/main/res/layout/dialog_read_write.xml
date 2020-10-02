@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ __          ________        _  _____
+  ~ \ \        / /  ____|      (_)/ ____|
+  ~  \ \  /\  / /| |__      ___ _| (___   ___  ___
+  ~   \ \/  \/ / |  __|    / _ \ |\___ \ / _ \/ __|
+  ~    \  /\  /  | |____  |  __/ |____) | (_) \__ \
+  ~     \/  \/   |______|  \___|_|_____/ \___/|___/
+  ~
+  ~ Copyright Wuerth Elektronik eiSos 2019
+  ~
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="R/W GPIO pin (volatile)"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <ImageButton
+            android:id="@+id/btn_read_all"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="@color/colorPrimary"
+            app:srcCompat="@android:drawable/ic_popup_sync" />
+
+    </LinearLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabIndicatorColor="@color/colorPrimary"
+        app:tabGravity="fill"
+        app:tabMaxWidth="0dp">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_item_b1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pinB1" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_item_b2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pinB2" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_item_b3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pinB3" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_item_b4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pinB4" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_item_b5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pinB5" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_item_b6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pinB6" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="You need to read the configuration of the pins before you can write them." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialogBtnBack"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/btn_read"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialogReadBtn"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/btn_write_all"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialogWriteAll"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/btn_write"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialogWriteBtn"
+            android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ __          ________        _  _____
+  ~ \ \        / /  ____|      (_)/ ____|
+  ~  \ \  /\  / /| |__      ___ _| (___   ___  ___
+  ~   \ \/  \/ / |  __|    / _ \ |\___ \ / _ \/ __|
+  ~    \  /\  /  | |____  |  __/ |____) | (_) \__ \
+  ~     \/  \/   |______|  \___|_|_____/ \___/|___/
+  ~
+  ~ Copyright Wuerth Elektronik eiSos 2019
+  ~
+  -->
+<!--
+New feature: <font color=#4BB543>[NEW]</font>
+Bug/Performance fix: <font color=#E3000B>[FIX]</font>
+Information: <font color=#b88d00>[INFO]</font>
+-->
+<resources>
+    <string name="whatsNewContent" translatable="false">
+        <![CDATA[
+        <b>Version 1.0</b>
+        <br>
+        <br>
+        <font color=#4BB543>[NEW]</font> This is the official first version of the Proteus Connect app. We hope you enjoy it.
+        <br>
+        <br>
+        ]]>
+    </string>
+</resources>

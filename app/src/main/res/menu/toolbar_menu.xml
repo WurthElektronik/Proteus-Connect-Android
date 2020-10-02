@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ __          ________        _  _____
+  ~ \ \        / /  ____|      (_)/ ____|
+  ~  \ \  /\  / /| |__      ___ _| (___   ___  ___
+  ~   \ \/  \/ / |  __|    / _ \ |\___ \ / _ \/ __|
+  ~    \  /\  /  | |____  |  __/ |____) | (_) \__ \
+  ~     \/  \/   |______|  \___|_|_____/ \___/|___/
+  ~
+  ~ Copyright Wuerth Elektronik eiSos 2019
+  ~
+  -->
+
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/menu_group_one">
+        <item
+            android:id="@+id/menu_disconnect"
+            android:icon="@drawable/ic_close"
+            android:title="@string/menuDisconnect"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/menu_profiles"
+            android:title="@string/menuProfiles" />
+        <item
+            android:id="@+id/menu_encoding"
+            android:icon="@drawable/ic_filter"
+            android:title="@string/menuEncoding" />
+        <item
+            android:id="@+id/menu_sendGlobally"
+            android:checkable="true"
+            android:title="@string/menuSendAllToDevices" />
+    </group>
+</menu>

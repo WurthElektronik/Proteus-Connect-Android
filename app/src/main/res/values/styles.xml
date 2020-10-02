@@ -1,0 +1,56 @@
+<!--
+  ~ __          ________        _  _____
+  ~ \ \        / /  ____|      (_)/ ____|
+  ~  \ \  /\  / /| |__      ___ _| (___   ___  ___
+  ~   \ \/  \/ / |  __|    / _ \ |\___ \ / _ \/ __|
+  ~    \  /\  /  | |____  |  __/ |____) | (_) \__ \
+  ~     \/  \/   |______|  \___|_|_____/ \___/|___/
+  ~
+  ~ Copyright Wuerth Elektronik eiSos 2019
+  ~
+  -->
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Font family -->
+        <item name="android:fontFamily">helvetica</item>
+        <item name="alertDialogTheme">@style/AlertDialogCustom</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+    <!-- SplashScreen Theme. -->
+    <style name="SplashScreen" parent="@style/AppTheme">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="AlertDialogCustomEncoding" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/black</item>
+        <item name="textColorAlertDialogListItem">@color/black</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="CheckBoxCustom" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="buttonTint">@color/colorPrimary</item>
+    </style>
+
+    <style name="PopUpCustom" parent="Widget.AppCompat.Light.PopupMenu">
+        <item name="android:colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+    <style name="Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:colorAccent">@color/white</item>
+    </style>
+</resources>

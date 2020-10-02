@@ -1,0 +1,2 @@
+include ':app'
+rootProject.setName("Proteus Connect")
