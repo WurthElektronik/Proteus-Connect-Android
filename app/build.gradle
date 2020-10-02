@@ -10,8 +10,8 @@ android {
         // When updating the app always change the versionName and then
         // set the last three numbers of the versionCode
         // to the versionName number
-        versionCode 211210
-        versionName "1.0"
+        versionCode 211211
+        versionName "1.1"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {

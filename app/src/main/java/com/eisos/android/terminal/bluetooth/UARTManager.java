@@ -324,9 +324,14 @@ public class UARTManager extends LoggableBleManager {
 
             // ASCII
             if(charEncoding == 0) {
-                request = writeCharacteristic(mRXCharacteristic, (String.format("%02X", AMBER_RF_HEADER_TYPE_DATA) + text).getBytes(StandardCharsets.US_ASCII))
+                byte[] b = (text).getBytes(StandardCharsets.US_ASCII);
+                byte[] c = new byte[1 + b.length];
+                c[0] = AMBER_RF_HEADER_TYPE_DATA;
+                System.arraycopy(b, 0, c, 1, b.length);
+                request = writeCharacteristic(mRXCharacteristic,  c)
                         .with((device, data) -> log(LogContract.Log.Level.APPLICATION,
                                 "\"" + data.getStringValue(2) + "\" sent"));
+
             }
             // HEX
             else {
