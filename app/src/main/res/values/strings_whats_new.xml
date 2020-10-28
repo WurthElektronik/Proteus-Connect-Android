@@ -18,6 +18,12 @@ Information: <font color=#b88d00>[INFO]</font>
 <resources>
     <string name="whatsNewContent" translatable="false">
         <![CDATA[
+        <b>Version 1.2</b>
+        <br>
+        <br>
+        <font color=#E3000B>[FIX]</font> Fixed logging of very first character in case of ascii payload
+        <br>
+        <br>
          <b>Version 1.1</b>
         <br>
         <br>

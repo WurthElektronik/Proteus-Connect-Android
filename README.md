@@ -2,7 +2,7 @@
 
 Contact: https://www.we-online.de/web/en/wuerth_elektronik/kontakte_weg/contacts_weg.php
 
-License Terms: https://github.com/WE-eiSmart/Proteus-Connect/blob/master/license_terms_Proteus-Connect_sdk.pdf
+License Terms: https://github.com/WE-eiSmart/Proteus-Connect-Android/blob/master/license_terms_Proteus-Connect_sdk.pdf
 
 Google Play Store: https://play.google.com/store/apps/details?id=com.eisos.android.terminal
 
@@ -19,7 +19,7 @@ Additional features and updates will be released as they are developed.
 It is highly recommended to uninstall an older version of the app or at least clear the storage
 of the app before installing a new version.
 
-Latest version: <a href="Proteus_Connect_v1.0.apk" download>Proteus_Connect_v1.0.apk</a>
+Latest version: <a href="Proteus_Connect_v1.2.apk" download>Proteus_Connect_v1.2.apk</a>
 
 ## Known issues
 
@@ -39,6 +39,8 @@ Scan screen                                           | Terminal screen         
  
  
 ## Known issues
+V1.1.0
+ - sending ascii payload does not log the very first character, the payload however is send correctly.
 V1.0.0
  - parsing ascii user input does not work properly, use hex input
  - input conding defaults to ascii, should be hex.

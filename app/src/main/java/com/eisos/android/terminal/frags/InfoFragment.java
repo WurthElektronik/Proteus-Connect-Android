@@ -121,7 +121,7 @@ public class InfoFragment extends Fragment {
      * Links to the source code of the app (GitHub.com)
      */
     private void onSourceCodeClicked() {
-        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/WE-eiSmart/Proteus_Terminal"));
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/WE-eiSmart/"));
         startActivity(browserIntent);
     }
 }

@@ -330,7 +330,7 @@ public class UARTManager extends LoggableBleManager {
                 System.arraycopy(b, 0, c, 1, b.length);
                 request = writeCharacteristic(mRXCharacteristic,  c)
                         .with((device, data) -> log(LogContract.Log.Level.APPLICATION,
-                                "\"" + data.getStringValue(2) + "\" sent"));
+                                "\"" + text + "\" sent"));
 
             }
             // HEX

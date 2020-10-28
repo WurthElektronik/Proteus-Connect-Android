@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 30
-    buildToolsVersion "29.0.2"
+    buildToolsVersion "30.0.2"
     defaultConfig {
         applicationId "com.eisos.android.terminal"
         minSdkVersion 21
@@ -10,8 +10,8 @@ android {
         // When updating the app always change the versionName and then
         // set the last three numbers of the versionCode
         // to the versionName number
-        versionCode 211211
-        versionName "1.1"
+        versionCode 211212
+        versionName "1.2"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
