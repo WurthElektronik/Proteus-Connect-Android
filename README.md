@@ -11,7 +11,6 @@ GitHub Würthg Elektronik eiSos: https://github.com/WurthElektronik
 ## General information
 
 This Android™ app is developed to send ASCII or HEX commands to connected boards.
-Currently the app is under development, which means that bugs might occur.
 Additional features and updates will be released as they are developed.
 
 ## Installation
