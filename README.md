@@ -6,7 +6,7 @@ License Terms: https://github.com/WurthElektronik/Proteus-Connect-Android/blob/m
 
 Google Play Store: https://play.google.com/store/apps/details?id=com.eisos.android.terminal
 
-GitHub Würthg Elektronik eiSos: https://github.com/WurthElektronik
+GitHub Würth Elektronik eiSos: https://github.com/WurthElektronik
 
 ## General information
 
